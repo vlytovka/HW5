@@ -1,0 +1,120 @@
+:root {
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+/* Main Styles */
+
+html {
+    border: 30px solid #fff;
+	min-height: 100%;
+	max-width: 100%;
+}
+
+body {
+	font: 25px "Trebuchet MC", Trebuchet, Arial, sans-serif;
+    text-align: center;
+    background: #3b3f45;
+    color: #fff;
+}
+
+header {
+	background: #4a4f56;
+	margin: 0 auto;
+    height: 120px;
+    color: #eb7e7f;
+	padding: 10px;
+}
+
+h1 {
+    font-weight: 700;
+	font-size: 35px;
+	margin-top: 10px;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+	}
+
+ul label {
+	display: inline-block;
+	cursor: pointer;
+	width: 100%;
+	padding: 15px 0 15px 55px;   
+}
+	
+li {  
+	background: #7a7593;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	position: relative;
+
+}
+
+.container li:nth-child(odd) {
+    background: #918ca8;
+}
+
+.container li:hover {
+    background: #66627a;
+    border-color: #fff;
+}
+
+.container li:active {
+    background: #dd7879;
+}
+
+.container li input:checked + label{
+    text-decoration: line-through;
+    color: #b5b2c7;
+}
+
+li::marker {
+	color: #3b3f45;
+}
+
+
+.container input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 19px 15px;
+    position: absolute;
+	
+}
+
+footer {
+    max-width: 800px;
+    height: 75px;
+    margin: 35px auto;
+	padding: 20px 0;
+	background: #4a4f56;
+    color: #eb7e7f;
+    
+}
+
